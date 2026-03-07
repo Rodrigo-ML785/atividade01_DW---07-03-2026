@@ -1,0 +1,41 @@
+table,
+th,
+td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+body {
+  margin-top: 0;
+  margin-bottom: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  width: 35%;
+  text-align: justify;
+}
+
+p {
+  font-weight: bold;
+}
+
+.formatarImagem {
+  max-width: 100%;
+  height: auto;
+  width: 90px;
+}
+
+.formatarImagemPadrao {
+  max-width: 100%;
+  height: auto;
+  width: 150px;
+}
+
+.headerSite {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
